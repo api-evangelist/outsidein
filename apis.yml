@@ -1,8 +1,24 @@
 aid: outsidein
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outsidein.png
 name: Outside.in
-description: Outside.in is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Outside.in was a hyperlocal news aggregation service that clustered blog posts and local news by
+  geography ("placeblogging"), founded in 2006 and backed by Union Square Ventures and Milestone
+  Venture Partners. It was acquired by AOL in 2011 and folded into the Patch local-news network; the
+  standalone product and its geo-tagging API were subsequently shut down. The company is defunct: the
+  outside.in domain no longer serves a website and there is no live developer portal, documentation, or
+  API surface to enrich. This profile is retained as a historical/portfolio-lead record.
 url: https://raw.githubusercontent.com/api-evangelist/outsidein/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +26,18 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Acquired by AOL in 2011, folded into Patch and shut down; domain does not resolve to a live site.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Hyperlocal
+- News Aggregation
+- Local News
+- Geolocation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +46,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://outside.in.com
+  url: https://outside.in
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
