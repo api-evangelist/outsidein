@@ -56,6 +56,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/aol/
+  name: AOL
+  x-relationship: acquired
+  x-evidence: "It was acquired by AOL in 2011 and folded into the Patch local-news network; the standalone product and its geo-tagging API were subsequently shut down."
 - type: Website
   url: https://outside.in
 x-enrichment:
